@@ -1,20 +1,7 @@
 /** @format */
 
 import React, { Component } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from "reactstrap";
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
 import { Link } from "react-router-dom";
 
 class Header extends Component {
