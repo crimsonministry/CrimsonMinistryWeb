@@ -39,12 +39,14 @@ class Team extends Component {
               <CardImg
                 top
                 width="100%"
-                src="https://www.breakthroughcollaborative.org/wp-content/uploads/400x400.png"
-                alt="Person2's Profile Picture"
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQEsrl-SAs5FlQ/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=ETg1EVPq42t4dv2m2jj8s5hXFXRXaMGfqglG-B8xc6Q"
+                alt="Coleman's Profile Picture"
               />
               <CardBody>
-                <CardTitle>Person 2</CardTitle>
-                <CardText>Description</CardText>
+                <CardTitle>Coleman Cost</CardTitle>
+                <CardText>
+                  From Huntsville, AL. Currently a Senior at The University of Alabama studying Computer Science with an expected graduation in December of 2020.
+                </CardText>
               </CardBody>
             </Card>
           </Col>
