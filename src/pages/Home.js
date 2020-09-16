@@ -6,15 +6,13 @@ import styled from "styled-components";
 
 const Title = styled.h1`
   text-align: center;
-  padding-top: 3em;
-  &:hover {
-    text-decoration: none;
-  }
+  padding-top: 2em;
+  font-size: 4em;
+  font-weight: bold;
 `;
 
 const Subtitle = styled.p`
   text-align: center;
-  color: grey;
 `;
 
 class Main extends Component {
