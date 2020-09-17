@@ -55,13 +55,13 @@ class Team extends Component {
               <CardImg
                 top
                 width="100%"
-                src="https://i.ibb.co/NWNhZFz/IMG-1775-1.jpg"
+                src="https://i.imgur.com/iv8aHQF.jpg"
                 alt="William's Profile Picture"
               />
               <CardBody>
                 <CardTitle>William Tosh</CardTitle>
                 <CardText>
-                  Hometown: Nola1
+                  Hometown: Nola
                   <br></br>
                   Major: CS
                   <br></br>
