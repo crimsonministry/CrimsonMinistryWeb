@@ -78,11 +78,13 @@ class Team extends Component {
                 top
                 width="100%"
                 src="https://www.breakthroughcollaborative.org/wp-content/uploads/400x400.png"
-                alt="Person4's Profile Picture"
+                alt="Williams Beaumont's Profile Picture"
               />
               <CardBody>
-                <CardTitle>Person4</CardTitle>
-                <CardText>Description</CardText>
+                <CardTitle>Williams Beaumont</CardTitle>
+                <CardText>
+			Senior at the University of Alabama studying Computer Science with a concentration in Cyber Security and minor in Marine Science. Expected graduation in December 2020.
+		</CardText>
               </CardBody>
             </Card>
           </Col>
