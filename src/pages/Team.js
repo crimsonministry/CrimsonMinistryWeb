@@ -61,7 +61,7 @@ class Team extends Component {
               <CardBody>
                 <CardTitle>William Tosh</CardTitle>
                 <CardText>
-                  Hometown: Nola
+                  Hometown: Nola1
                   <br></br>
                   Major: CS
                   <br></br>
