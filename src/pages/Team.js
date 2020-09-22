@@ -77,7 +77,7 @@ class Team extends Component {
               <CardImg
                 top
                 width="100%"
-                src="https://www.breakthroughcollaborative.org/wp-content/uploads/400x400.png"
+                src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/119979481_1871065156369532_3505132328755378163_n.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=n5171k7vwoIAX9S5GDl&_nc_ht=scontent-atl3-1.xx&oh=9bfad3c19b8e7c0abb97b6e4b8c2b09b&oe=5F8FF3BD"
                 alt="Williams Beaumont's Profile Picture"
               />
               <CardBody>

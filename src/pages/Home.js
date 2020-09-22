@@ -20,7 +20,7 @@ class Main extends Component {
     return (
       <Container>
         <Title>Crimson Ministry</Title>
-        <Subtitle>description goes here</Subtitle>
+        <Subtitle>This app is designed to connect students from different churches at the University of Alabama to one another. Typically, the events for different churches are insulated within the members of that particular faith. This platform allows students to organize events with one another and promote interaction between different groups. This allows for greater participation and understanding for the various ministries present on-campus. Students are also able to post prayer requests promote awareness for causes in need. We aim to foster a greater sense of community beyond one's personal church.</Subtitle>
       </Container>
     );
   }
