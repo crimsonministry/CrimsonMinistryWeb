@@ -9,10 +9,13 @@ const Title = styled.h1`
   padding-top: 2em;
   font-size: 4em;
   font-weight: bold;
+  background-color: #dcdcdc;
 `;
 
 const Subtitle = styled.p`
   text-align: center;
+  font-size: 1.75em;
+  background-color: #dcdcdc;
 `;
 
 class Main extends Component {
