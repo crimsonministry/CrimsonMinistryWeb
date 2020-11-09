@@ -15,7 +15,13 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Crimson Ministry</title>
   </head>
-  <body style="background-color: #a60c31">
+  <body background: var(--bg);
+        background-image: radial-gradient(#ddd 1px, transparent 0),
+        radial-gradient(#ddd 1px, transparent 0);
+        background-position: 0 0, 25px 25px;
+        background-attachment: fixed;
+        background-size: 50px 50px;
+        overflow-x: hidden;>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>

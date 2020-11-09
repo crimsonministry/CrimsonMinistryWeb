@@ -8,7 +8,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
+        <Navbar style={{backgroundColor: '#231F20'}} dark expand="md">
           <NavbarBrand href="/">Crimson Ministry</NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>

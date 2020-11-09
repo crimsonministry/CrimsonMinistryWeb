@@ -4,22 +4,30 @@ import React, { Component } from "react";
 import { Container } from "reactstrap";
 import styled from "styled-components";
 
-const Background = {
-  background: "#ffffff"
-}
-
 const Title = styled.h1`
   text-align: center;
+  padding: 1em;
   font-size: 4em;
   font-weight: bold;
 `;
 
+const Content = styled.div`
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-align: center;
+`;
+
+const Topic = styled.h3`
+  text-align: left;
+  color: #9E1B32;
+`;
+
 const Subtitle = styled.p`
   text-align: left;
-  font-size: 1.75em;
-  padding-top: 1em;
+  font-size: 1em;
   padding-bottom: 1em;
-  width: 750px;
   margin: auto;
 `;
 
@@ -27,10 +35,33 @@ class Main extends Component {
   render() {
     return (
       <Container>
-	<div style = {Background}>
-          <Title>Crimson Ministry</Title>
-          <Subtitle>This app is designed to connect students from different churches at the University of Alabama with one another. Typically, the events for different churches are insulated within the members of that particular faith. This platform allows students to organize events with one another and promote interaction between different groups. This allows for greater participation and understanding for the various ministries present on-campus. Students are also able to post prayer requests promote awareness for causes in need. We aim to foster a greater sense of community beyond one's personal church.</Subtitle>
-        </div>
+        <Title>Crimson Ministry</Title>
+        <Content>
+          <Topic>Problem</Topic>
+          <Subtitle>
+            Campus ministries at the University of Alabama are divided and each ministry
+            focus on their own outreach events. Many students struggle to find connections with
+            students in other campus ministries.
+          </Subtitle>
+          <hr/>
+          <Topic>Solution</Topic>
+          <Subtitle>
+            A unified platform for students to plan and organize their own mission trips
+            to the campus to spread the Word of God.
+          </Subtitle>
+          <hr/>
+          <Topic>Features</Topic>
+          <Subtitle>
+            <ul>
+              <li>Create and organize a bible study, worship, or other events</li>
+              <li>View events from other students and RSVP to attend</li>
+              <li>View where the missions are happening through a campus map</li>
+              <li>Post prayer requests and pray for others' prayer requests</li>
+              <li>Add your profile with your ministry and social media links</li>
+              <li>Add friends</li>
+            </ul>
+          </Subtitle>
+        </Content>
       </Container>
     );
   }
