@@ -8,13 +8,7 @@ import styled from "styled-components";
 import * as serviceWorker from "./serviceWorker";
 
 const BigDiv = styled.div`
-  background: var(--bg);
-  background-image: radial-gradient(#ddd 1px, transparent 0),
-  radial-gradient(#ddd 1px, transparent 0);
-  background-position: 0 0, 25px 25px;
-  background-attachment: fixed;
-  background-size: 50px 50px;
-  overflow-x: hidden;
+  color: #E6E6E6;
 `
 
 ReactDOM.render(

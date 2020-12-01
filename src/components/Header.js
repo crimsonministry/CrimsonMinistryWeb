@@ -12,8 +12,13 @@ class Header extends Component {
           <NavbarBrand href="/">Crimson Ministry</NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link to="deliverables">
-                <NavLink>Deliverables</NavLink>
+              <Link to="about">
+                <NavLink>About</NavLink>
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="doc">
+                <NavLink>Doc</NavLink>
               </Link>
             </NavItem>
             <NavItem>
