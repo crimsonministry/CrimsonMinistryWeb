@@ -40,7 +40,7 @@ class Deliverables extends Component {
       <>
       <Header active="Doc"/>
       <Container>
-        <Title>Deliverables</Title>
+        <Title>Docs</Title>
         <Content>
           <Topic>Releases</Topic>
           <ListGroup>

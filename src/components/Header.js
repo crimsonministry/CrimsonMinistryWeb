@@ -17,8 +17,8 @@ class Header extends Component {
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="doc">
-                <NavLink>Doc</NavLink>
+              <Link to="docs">
+                <NavLink>Docs</NavLink>
               </Link>
             </NavItem>
             <NavItem>
