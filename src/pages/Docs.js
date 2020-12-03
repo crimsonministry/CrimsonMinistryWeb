@@ -9,6 +9,7 @@ import Header from "../components/Header";
 import PitchPresentation from "../content/pitch.pdf";
 import Sprint1Presentation from "../content/sprint1Presentation.pdf";
 import Sprint2Presentation from "../content/sprint2Presentation.pdf";
+import Sprint3Presentation from "../content/sprint3Presentation.pdf";
 
 import Sprint1Backlog from "../content/sprint1Backlog.zip"
 import Sprint2Backlog from "../content/sprint2Backlog.zip"
@@ -81,7 +82,11 @@ class Deliverables extends Component {
             >
               Sprint 2 Presentation
             </ListGroupItem>
-            <ListGroupItem disabled
+            <ListGroupItem
+              tag="a"
+              href={Sprint3Presentation}
+              download="Sprint3Presentation.pdf"
+              action
             >
               Sprint 3 Presentation
             </ListGroupItem>
