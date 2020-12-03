@@ -5,6 +5,9 @@ import { Container, Button, ButtonGroup } from "reactstrap";
 import styled from "styled-components";
 import Header from "../components/Header";
 import Icon from '../content/icon.png';
+import APK from "../content/app-release.apk"
+import IPA from "../content/Payload.ipa"
+
 
 const Heading = styled.div`
   text-align: center;
@@ -47,8 +50,22 @@ class Main extends Component {
         </Heading>
         <Content>
         <ButtonGroup>
-          <Button outline color="danger" disabled>App Store</Button>
-          <Button outline color="danger" disabled>Google Play</Button>
+          <Button
+            outline
+            color="danger" 
+            href={APK}
+            download={"app-release.apk"}
+          >
+            apk
+          </Button>
+          <Button
+            outline
+            color="danger"
+            href={IPA}
+            download={"Payload.ipa"}
+          >
+            ipa
+          </Button>
         </ButtonGroup>
         </Content>
       </Container>
