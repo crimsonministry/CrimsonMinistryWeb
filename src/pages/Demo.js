@@ -28,7 +28,9 @@ class Demo extends Component {
       <Container>
         <Title>Demo</Title>
         <Content>
-            <p>the video goes here</p>
+          <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/-XUbhA8pa3U">
+          </iframe>
         </Content>
       </Container>
       </>
